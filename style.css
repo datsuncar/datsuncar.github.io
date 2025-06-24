@@ -229,18 +229,24 @@ tr:hover {
 
   #imageViewer img {
     margin-bottom: 10px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
 
   #imageViewer .button-row {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     width: 100%;
+    padding: 0 10px;
   }
 
   #imageViewer button {
     flex: 1;
-    max-width: 120px;
+    font-size: 14px;
+    padding: 6px 8px;
+    max-width: 100px;
   }
 }
 
