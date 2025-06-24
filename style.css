@@ -248,6 +248,19 @@ tr:hover {
     padding: 6px 8px;
     max-width: 100px;
   }
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-buttons button,
+.close-button {
+  margin: 0 5px;
+  padding: 6px 12px;
+  font-size: 14px;
+}
 }
 
 @media (max-width: 600px) {
